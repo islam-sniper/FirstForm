@@ -24,6 +24,7 @@ form input{
     padding: 5px 10px;
     width: 150px;
     flex-grow: 1;
+    transition: 0.7s ease;
 }
 button{
     border: 3px solid wheat;
@@ -34,4 +35,21 @@ button{
     padding: 5px 10px;
     width: 30px;
     flex-grow: 1;
+    font-size: 1em;
+    font-weight: 500;
+    transition: 0.7s ease;
+} 
+button:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+} 
+input:hover{
+    transform: scale(1.05);
+} 
+p{
+    background-color: red;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(255, 255, 255);
+
 }
